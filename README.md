@@ -5,7 +5,10 @@ This poject want to create a set of tools to make Kicad (free electronics CAD) c
 
 Actual state:
 -HarnessHelper is usable
--NetlistExport is a plugin exporting netlist of Kikad eeschema
+-Extract_cutlist is a plugin exporting excel netlist of Kikad eeschema:
+to run the script
+'''
+python extract_cutlist.py target.kicad_sch
 
 Todo
 -integrate lenghts in the export to build tha actual netlist
